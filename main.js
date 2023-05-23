@@ -3,7 +3,7 @@ function goTo(name) {
 }
 
 function setPlayerMax(e) {
-	document.querySelector('div.number-players').innerText = 'Number of players ' + e.value;
+	document.querySelector('div.number-players').innerText = 'Кол-во игроков ' + e.value;
 }
 
 function setCode() {
@@ -12,5 +12,5 @@ function setCode() {
 	for (var i = codes.length - 1; i >= 0; i--) {
 		code = codes[i].value + code;
 	}
-	document.querySelector('div.room-code').innerText = 'Entered code '+ code;
+	document.querySelector('div.room-code').innerText = 'Введённый код '+ code;
 }
